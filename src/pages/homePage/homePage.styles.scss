@@ -1,0 +1,69 @@
+.home-page{
+    font-family: monospace;
+    text-align: center;
+    display: block;
+    justify-content: space-evenly;
+
+     @media only screen and (max-width: 800px) {
+      margin: 0;
+      margin-bottom: 7em;
+      }
+}
+
+.hello-world {
+    text-align: center;
+    color: turquoise;
+    text-transform: uppercase;
+    --animate-duration: 3s;
+    font-size: 5em;
+    margin: 1em;
+
+     @media only screen and (max-width: 800px) {
+      font-size: 2em;
+      }
+
+
+}
+
+.home-page-intro {
+    display: flex;
+    justify-content: center;
+    
+    @media only screen and (max-width: 800px) {
+      font-size: 1.5em;
+      text-align: center;
+      }
+
+    div {
+        margin-top: 0.5em;
+        margin-bottom: 1.8em;
+        color: rgba(58, 196, 182, 0.904);
+
+        @media only screen and (max-width: 800px) {
+            margin: 0.5em;
+      }
+    }
+}
+
+#link-to-about {
+    margin: 5.5em;
+}
+
+#link-to-about-me {
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: none;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+
+        @media only screen and (max-width: 800px) {
+        font-size: small;
+        text-align: center;
+        margin-top: 3em;
+        margin-bottom: 3em;
+      }
+        a {
+            color: white;
+        }
+    }

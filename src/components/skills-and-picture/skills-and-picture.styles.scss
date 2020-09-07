@@ -1,0 +1,63 @@
+.skills-picture {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  @media only screen and (max-width: 800px) {
+      flex-direction: column;
+      }
+
+  .skill {
+        font-style: italic; 
+        font-size: 1.5em;
+        color: rgb(237, 238, 227);
+        border: 0.3em ridge rgb(135, 190, 135);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-radius: 0.5em;
+        background-color: rgba(100, 117, 80, 0.616);
+        box-shadow: 0 0 20px 0  rgba(185, 97, 56, 0.2);
+        width: 6em;
+
+  }
+
+  img {
+  width:300px;
+  height: 300px;
+  border-radius: 100%;
+
+
+  @media only screen and (max-width: 800px) {
+      width: 70vw;
+      height: auto;
+      margin-bottom: 4em;
+      margin-top: 4em;
+      
+      }
+}
+}
+
+.backend-frontend {
+  width: 30%;
+  color: white;
+  background-color: rgba(57, 121, 57, 0.2);
+  border-radius:20%;
+font-size: 1.1em;
+   @media only screen and (max-width: 800px) {
+      width: 90vw;
+      height: auto;
+      background-color: rgba(57, 121, 57, 0.2);
+      border-radius:20%;
+      
+      }
+}
+
+.list-of-skills li {
+list-style-type: circle;
+color: white;
+}
+
+

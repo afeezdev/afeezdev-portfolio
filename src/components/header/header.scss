@@ -1,0 +1,26 @@
+.navigation {
+  background-color: rgba(84, 100, 53,0.5);
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+.nav-link {
+    transition: 500ms;
+}
+
+.nav-link:hover {
+    background-color: #332e44;
+    border-radius: 20px; 
+}
+
+#navbar {
+  display: flex;
+  padding-right: 2em;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.options {            
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+

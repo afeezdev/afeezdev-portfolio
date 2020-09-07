@@ -1,0 +1,46 @@
+#email_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: rgba(150, 206, 150, 0.418);
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+#name-input,#feedback-field{
+    width: 500px;
+    margin: 1em auto;
+
+    @media only screen and (max-width: 800px) {
+      width: 300px;
+      }
+}
+
+ #feedback-field{
+    height: 300px;
+}
+
+#submit_form {
+    min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px ;
+  font-size: 15px;
+  background-color: rgba(115, 212, 71, 0.589);
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+  font-weight: bolder;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    background-color: rgba(207, 88, 19, 0.1);
+    color: rgb(182, 204, 137);
+  }
+}
+
