@@ -17,7 +17,7 @@ export const projects = [
         caption: "Face Detection",
         details: 'Built with React, Clarifai API and NodeJs ',
         linkUrl: 'https://face-detection-afeezdev.herokuapp.com/',
-        sourceCode:'https://github.com/afeezdev/face-recognition'
+        sourceCode:'https://github.com/afeezdev/face-detection'
     },
     {
         src: RoboFriends,
