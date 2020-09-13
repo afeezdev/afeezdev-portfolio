@@ -27,4 +27,12 @@ export const projects = [
         linkUrl: 'https://robo-friend-afeezdev.herokuapp.com/',
         sourceCode: 'https://github.com/afeezdev/roboFriend-card-app'
     },
+    {
+        src: 'https://5f5e7e9c598fe1595897dd6f--determined-chandrasekhar-8f82d3.netlify.app/images/logo.svg',
+        id: "4",
+        caption: "Gmail Cleaner ",
+        details: 'Built with Vanilla Js',
+        linkUrl: 'https://5f5e7e9c598fe1595897dd6f--determined-chandrasekhar-8f82d3.netlify.app/'
+        sourceCode: 'https://github.com/chingu-voyages/v22-chimeras-team-04'
+    },
 ];
