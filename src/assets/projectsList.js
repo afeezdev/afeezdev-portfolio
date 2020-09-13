@@ -32,7 +32,7 @@ export const projects = [
         id: "4",
         caption: "Gmail Cleaner ",
         details: 'Built with Vanilla Js',
-        linkUrl: 'https://5f5e7e9c598fe1595897dd6f--determined-chandrasekhar-8f82d3.netlify.app/'
+        linkUrl: 'https://5f5e7e9c598fe1595897dd6f--determined-chandrasekhar-8f82d3.netlify.app/',
         sourceCode: 'https://github.com/chingu-voyages/v22-chimeras-team-04'
     },
 ];
