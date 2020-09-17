@@ -8,62 +8,78 @@
       margin: 0;
       margin-bottom: 7em;
       }
-}
 
-.hello-world {
-    text-align: center;
-    color: turquoise;
-    text-transform: uppercase;
-    --animate-duration: 3s;
-    font-size: 5em;
-    margin: 1em;
-
-     @media only screen and (max-width: 800px) {
-      font-size: 2em;
-      }
-
-
-}
-
-.home-page-intro {
-    display: flex;
-    justify-content: center;
+      .hello-world {
+        text-align: center;
+        color: turquoise;
+        text-transform: uppercase;
+        --animate-duration: 3s;
+        font-size: 5em;
+        margin: 1em;
     
-    @media only screen and (max-width: 800px) {
-      font-size: 1.5em;
-      text-align: center;
-      }
-
-    div {
-        margin-top: 0.5em;
-        margin-bottom: 1.8em;
-        color: rgba(58, 196, 182, 0.904);
-
-        @media only screen and (max-width: 800px) {
-            margin: 0.5em;
-      }
+         @media only screen and (max-width: 800px) {
+          font-size: 2em;
+          }
+    
     }
-}
 
-#link-to-about {
-    margin: 5.5em;
-}
-
-#link-to-about-me {
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: none;
-        padding: 0;
-        box-sizing: border-box;
-        text-align: center;
-
+    .home-page-intro {
+        display: flex;
+        justify-content: center;
+        
         @media only screen and (max-width: 800px) {
-        font-size: small;
-        text-align: center;
-        margin-top: 3em;
-        margin-bottom: 3em;
-      }
-        a {
-            color: white;
+          font-size: 1.5em;
+          text-align: center;
+          }
+    
+        div {
+            margin-top: 0.5em;
+            margin-bottom: 1.8em;
+            color: rgba(58, 196, 182, 0.904);
+    
+            @media only screen and (max-width: 800px) {
+                margin: 0.5em;
+          }
         }
     }
+
+    #link-to-about {
+        margin: 5.5em;
+
+        #link-to-about-me {
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: none;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+    
+            @media only screen and (max-width: 800px) {
+            font-size: small;
+            text-align: center;
+            margin-top: 3em;
+            margin-bottom: 3em;
+          }
+            a {
+                color: white;
+            }
+        }
+        div h1 span {
+            animation-delay: calc((var(--index)-10) *0.25s);
+        }
+    }
+
+}
+
+#1{--index: 0} #2{--index: 1} #3{--index: 2} 
+#4{--index: 3} #5{--index: 4} #6{--index: 5} 
+#7{--index: 6} #8{--index: 7} #9{--index: 8}
+
+
+
+
+
+
+
+
+

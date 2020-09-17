@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './feedbackPage.styles.scss';
 
 const FeedbackPage = () => {
@@ -20,7 +19,6 @@ const FeedbackPage = () => {
                     </div>
                     <p>Powered by <a href="https://postmail.invotes.com" target="_blank" rel="noopener noreferrer">PostMail</a></p>
                 </form>
-
             </div>
         );
     }

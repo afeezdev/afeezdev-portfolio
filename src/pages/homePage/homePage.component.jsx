@@ -19,6 +19,22 @@ const HomePage = () => (
             <CustomButtom id="link-to-about-me">
                 <a href='about-me'>KNOW MORE </a>
             </CustomButtom>
+            <br/>
+            <br/>
+            
+            <div>
+                <h1>
+                    View My Resume</h1>
+                <h3>
+                    <a 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    href="https://drive.google.com/file/d/1I086Q4gkQD_7wgdcPREksOMMBtrzoUgV/view?usp=sharing"
+                        >  
+                        click here
+                    </a>
+                </h3>  
+            </div>
         </div>
     </div>
 )
