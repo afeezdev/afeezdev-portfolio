@@ -10,7 +10,7 @@ const FeedbackPage = () => {
 
                     <input id="name-input" type="text" name="subject" placeholder="Name"  required/>
                     <textarea id="feedback-field" name="text" placeholder="Feedback" required></textarea>
-                    <input type="hidden" name="access_token" value="xwgvro72nkj7vd43xcnnplsx" />
+                    <input type="hidden" name="access_token" value="26gnmnb8f41m67gam887059f" />
                     <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
                     <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
                     <div>
