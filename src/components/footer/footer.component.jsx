@@ -16,7 +16,7 @@ const Footer = () => (
                 <a href="https://web.facebook.com/olawale.abdulyekeen?_rdc=1&_rdr" target="_blank" rel="noopener noreferrer"> 
                     <i className="mr-4 ml-4  fa fa-facebook-official"> </i> 
                 </a>
-                <a href="https://twitter.com/talk2wale09" target="_blank" rel="noopener noreferrer"> 
+                <a href="https://twitter.com/afeezDev" target="_blank" rel="noopener noreferrer"> 
                     <i className="mr-4 ml-4 fa fa-twitter"> </i> 
                 </a>
                 <a href="https://www.linkedin.com/in/afeezdev" target="_blank" rel="noopener noreferrer">
