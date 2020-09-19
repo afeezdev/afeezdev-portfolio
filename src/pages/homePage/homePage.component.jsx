@@ -29,7 +29,7 @@ const HomePage = () => (
                     <a 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    href="https://drive.google.com/file/d/1I086Q4gkQD_7wgdcPREksOMMBtrzoUgV/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1k7SbcDG5ze4oCMGJrJIzHsWpZZvpHq98/view?usp=sharing"
                         >  
                         click here
                     </a>
