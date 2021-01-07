@@ -27,7 +27,7 @@ const Footer = () => (
                 </a>
             </div>
             <br/>
-        <div id="copyright">Copyright © Afeez Olawale 2020 </div>
+        <div id="copyright">Copyright © Afeez Olawale 2021 </div>
         <br/>
             
         </footer>
