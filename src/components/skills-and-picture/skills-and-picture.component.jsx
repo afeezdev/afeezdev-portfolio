@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Tilt from 'react-tilt';
+import { Tilt } from 'react-tilt';
 
 
 import Developer from "../../assets/afeezdev.jpg";

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { Header } from './components/header/header.component';
 import HomePage from './pages/homePage/homePage.component';
@@ -11,37 +11,26 @@ import Footer from './components/footer/footer.component';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-import Particles from "react-particles-js";
-
 import './App.scss'
-
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 50,
-      density: {
-        enable: true,
-        value_area: 1500
-      }
-    }
-  },
-  
-};
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Particles className="particles" params={particlesOptions} />
+      
         <Header />
-        <Switch >
-          <Route exact path="/" component={HomePage} />
-          <Route exact path="/about-me" component={AboutPage} />
-          <Route exact path="/projects" component={ProjectsPage} />
-          <Route exact path="/feedback" component={FeedbackPage} />
-        </Switch>
+        
+          <Routes>
+            <Route  path="/" element={ <HomePage/>} />
+            <Route path="/about-me" element={ <AboutPage/>} />
+            <Route path="/projects" element={ <ProjectsPage/>} />
+            <Route path="/feedback" element={ <FeedbackPage/>} />
+          </Routes>
+        
         <Footer className='footer' />
       </div>
+      
+
     );
   }
 }

@@ -13,7 +13,8 @@ import {
   NavLink
 } from 'reactstrap';
 
-import Tilt from 'react-tilt';
+import { Tilt } from 'react-tilt';
+
 
 import "./header.scss";
 
@@ -35,13 +36,9 @@ export class Header extends React.Component {
         <Navbar id='navbar' className="navbar navbar-dark ma" expand="md">
           <div className='navbar-brand'>
               <NavbarBrand tag={Link} to="/">
-                  <Tilt
-                    className="Tilt logo"
-                    options={{ max: 65 }}
-                    style={{ height: 50, width: 50 }}
-                  >
-                    <Logo />
-                  </Tilt>
+                <Tilt>
+                  <Logo />
+                </Tilt>
               </NavbarBrand>
             </div>
           <div className='options'>

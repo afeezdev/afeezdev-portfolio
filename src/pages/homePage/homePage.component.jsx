@@ -19,6 +19,7 @@ const HomePage = () => (
             <CustomButtom id="link-to-about-me">
                 <a href='about-me'>KNOW MORE </a>
             </CustomButtom>
+        
         </div>
     </div>
 )
