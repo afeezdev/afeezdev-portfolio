@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 import CustomButtom from '../../components/custom-button/custom-button.component'
 import './homePage.styles.scss';
 
@@ -17,7 +17,7 @@ const HomePage = () => (
             id="link-to-about"
             className="animate__animated animate__backInUp animate__delay-4s 4s">
             <CustomButtom id="link-to-about-me">
-                <a href='about-me'>KNOW MORE </a>
+                <Link to="about-me"> KNOW MORE </Link>
             </CustomButtom>
         
         </div>
